@@ -9,6 +9,6 @@ export default defineNuxtModule({
 	setup(options, nuxt) {
 		const { resolve } = createResolver(import.meta.url)
 
-		addPlugin(resolve(nuxt.options.rootDir, 'node_modules/nuxt3/plugins/progress.client.mjs'))
+		addPlugin(resolve(nuxt.options.rootDir, 'node_modules/nuxt3/dist/plugins/progress.client.mjs'))
 	}
 })
