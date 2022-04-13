@@ -1,0 +1,13 @@
+{
+  "name": "nuxt-loading",
+  "version": "0.0.0-dev",
+  "license": "MIT",
+  "description": "Nuxt loading bar",
+  "main": "src/index.js",
+  "author": "Michał Pietrucha",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpietrucha/nuxt-loading"
+  }
+}
