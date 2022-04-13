@@ -14,7 +14,7 @@ npm i -D nuxt-loading
 
 ```js
 buildModules: [
-  'nuxt3-loading'
+  'nuxt-loading'
 ],
 ```
 
