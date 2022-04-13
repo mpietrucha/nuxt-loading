@@ -1,16 +1,16 @@
 # Nuxt 3 loading bar
 
-This package adds loading bar of top of the page. Default styled with [windicss](https://windicss.org/).
+This package adds internal (hidden) nuxt loading bar plugin support.
 
 ## Setup
 
-1. Add `nuxt3-loading` dependency to your project
+1. Add `nuxt-loading` dependency to your project
 
 ```bash
-npm i -D nuxt3-loading
+npm i -D nuxt-loading
 ```
 
-2. Add `nuxt3-loading` to the `buildModules` section of `nuxt.config.ts`
+2. Add `nuxt-loading` to the `buildModules` section of `nuxt.config.ts`
 
 ```js
 buildModules: [
@@ -18,4 +18,4 @@ buildModules: [
 ],
 ```
 
-3. Style your loader by `#nuxt-loading`.
+3. Override default style loader by `#nuxt-loading`.
